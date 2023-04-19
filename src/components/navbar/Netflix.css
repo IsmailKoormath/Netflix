@@ -1,0 +1,103 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial, sans-serif
+}
+
+.main-page {
+  background-image: linear-gradient(
+      180deg,
+      rgba(37, 37, 37, 0.61),
+      rgb(27, 27, 27)
+    );
+    
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100vw;
+  height: 40px;
+  background: transparent;
+  padding: 5px;
+  text-align: center;
+  /* position: fixed;
+  top: 0; */
+}
+.logo {
+  width: 140px;
+  height: 35;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.avatar {
+  width: 40px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -90px;
+}
+
+.heading {
+  width: 500px;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 250px;
+  color: #fff;
+}
+.second-heading {
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(42, 41, 41);
+  margin-right: 10px;
+}
+.side-image {
+  
+margin-top: -100px;
+  width: 380px;
+  height: 250px;
+
+
+}
+@media screen and ( max-width:897px) {
+  .banner{
+    margin-left: 0px;
+  }
+  .main-page {
+    height: 60rem;
+    
+}
+  
+}
+.image1 {
+ position: absolute;
+  width: 380px;
+  height: 250px;
+  margin-top: 160px;
+}
+.double-img {
+ 
+  margin-top: 260px;
+  margin-left: 100px;
+  width: 380px;
+  height: 250px;
+}
